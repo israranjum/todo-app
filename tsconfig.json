@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/add-new-todo.tsx", "app/layout.tsx", "app/page.tsx", "app/todo-list.tsx", "app/todo.tsx", "app/header.tsx", "app/footer.tsx", "app/head.tsx", "pages/api/todo/add.tsx", "pages/api/todo/delete.tsx", "pages/api/todo/list.tsx", "pages/api/todo/update.tsx"],
+  "exclude": ["node_modules"]
+}
